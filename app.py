@@ -12,7 +12,7 @@ s3 = boto3.client('s3')
 dynamodb = boto3.resource('dynamodb')
 
 # Constants
-BUCKET_NAME = 'new-resume123'  # Replace with your S3 bucket
+BUCKET_NAME = 'new-resume-bucket1'  # Replace with your S3 bucket
 TABLE_NAME = 'applicants'      # Replace with your DynamoDB table name
 
 @app.route('/')
